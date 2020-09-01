@@ -7,7 +7,7 @@ Can computer listen to a piece of music and classify its genre? As the technolog
 In this project, two different approaches were considered to compare how well it classifies a music genre based on audio track given. The first approach is image classification using 2D CNN on spectrograms. Using Librosa library, convert .wav files to respective mel-spectrogram and use them to train 2D CNN model. The second approach is sequence modeling on MFCCs using 1D CNN - LSTM model structure. Convert .wav files into sequence of MFCC and use to train CNN-LSTM model.
 <br>
 <br>
-Both models were trained for 100 epochs with learning rate of 0.00025. The summary of the model architecture is below. For detail, please refer to .ipynb file
+Both models were trained for 100 epochs with learning rate of 0.00025. The summary of the model architecture is below. For detail, please see [here](https://colab.research.google.com/drive/1uJ17DcjCrDZlqStpYh5jQ-gbNhcG8FmL?usp=sharing)
 
 ### 2D CNN
 The model has three 2D convolutional layers with 32 nodes followed by two fully connected layers with 32 and 16 nodes and a output layer with 10 nodes and softmax activation. Dropout and Batch Normalization layers were used throughout the model to prevent overfitting. 
