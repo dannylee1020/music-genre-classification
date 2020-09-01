@@ -14,7 +14,6 @@ def make_prediction(model,data):
 	return y_pred
 
 
-
 if __name__ == '__main__':
 
 	questions = [
