@@ -16,7 +16,7 @@ The model has three 2D convolutional layers with 32 nodes followed by two fully 
 <img src='https://github.com/dannylee1020/music-genre-classification/blob/master/image/2d_loss.png' width=400 height=300>
 
 ### 1D CNN - LSTM
-The model has three 1D convolutional layers with 32 nodes followed by two LSTM layers with 128 nodes, then followed by  one fully connected layer of 64 nodes and an output layer of 10 nodes and softmax activation. Dropout and Batch Normalization layers were used throughout the model to prevent overfitting. 
+The model has three 1D convolutional layers with 32 nodes followed by two LSTM layers with 128 nodes, then followed by  one fully connected layer of 50 nodes and an output layer of 10 nodes and softmax activation. Dropout and Batch Normalization layers were used throughout the model to prevent overfitting. 
 <br>
 <img src='https://github.com/dannylee1020/music-genre-classification/blob/master/image/1d_accuracy.png' width=400 height=300>
 <img src='https://github.com/dannylee1020/music-genre-classification/blob/master/image/1d_loss.png' width=400 height=300>
@@ -26,8 +26,8 @@ Both models had similar performance, with 1D CNN - LSTM model slightly outperfor
 
 | Model | Loss | Accuracy |
 | --- | --- | -----|
-| 2D CNN | 1.36 | 59% |
-| 1D CNN - LSTM | 1.11 | 63%|
+| 2D CNN | 1.34 | 55% |
+| 1D CNN - LSTM | 1.12 | 59% |
 
 
 ## Data
