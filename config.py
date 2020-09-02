@@ -1,4 +1,4 @@
-
+1
 MODEL_DIR = '/Users/dhyungseoklee/Projects/ML_Pipelines/music-genre-classification/model/'
 DATA_DIR = '/Users/dhyungseoklee/Projects/ML_Pipelines/music-genre-classification/data/'
 

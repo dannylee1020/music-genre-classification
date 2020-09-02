@@ -34,6 +34,10 @@ Both models had similar performance, with 1D CNN - LSTM model slightly outperfor
 Data used for this project is GTZAN dataset. It is consisted of 1000 audio tracks of length 30 seconds, categorized into 10 genres of 100 tracks each. The genres are blues, classical, country, disco, hip hop, jazz, metal, pop, reggae and rock. The dataset can be found on [Kaggle](https://www.kaggle.com/andradaolteanu/gtzan-dataset-music-genre-classification)
 
 
+## Test
+Scripts for simple unit tests for model prediction is written in `test.py`. Run `pytest test.py` for testing both models 
+
+
 ## Reference
 [Music Genre Recognition using Deep Neural Networks and Transfer Learning](https://www.isca-speech.org/archive/Interspeech_2018/pdfs/2045.pdf)
 <br>
